@@ -15,11 +15,12 @@
 */
 #include <stdio.h>
 int main() {
-    int Num1 ;
-    int Num2 ;
+    int H ;
+    int T ;
     float Answer ;
-    scanf( "%d %d" ,&Num1,&Num2 ) ;
-    Answer = (Num1 * Num2)/ 2 ;
+    printf("Enter H & W :") ;
+    scanf( "%d %d" ,&H,&T ) ;
+    Answer = (H * T)/ 2 ;
 printf( "Triagle Area : %0.1f",Answer ) ;
 return 0 ;
 }//endfunction
