@@ -17,9 +17,9 @@
 int main() {
     int Num1 ;
     int Num2 ;
-    int Answer ;
+    float Answer ;
     scanf( "%d %d" ,&Num1,&Num2 ) ;
     Answer = (Num1 * Num2)/ 2 ;
-printf( "Triagle Area : %d",Answer ) ;
+printf( "Triagle Area : %0.1f",Answer ) ;
 return 0 ;
 }//endfunction
