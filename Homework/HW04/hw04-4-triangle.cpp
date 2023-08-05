@@ -18,7 +18,7 @@ int main() {
     int H ;
     int T ;
     float Answer ;
-    printf("Enter H & W :") ;
+    printf( "Enter H & W : " ) ;
     scanf( "%d %d" ,&H,&T ) ;
     Answer = (H * T)/ 2 ;
 printf( "Triagle Area : %0.1f",Answer ) ;
