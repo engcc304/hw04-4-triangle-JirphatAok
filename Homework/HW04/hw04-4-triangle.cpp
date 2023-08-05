@@ -20,6 +20,6 @@ int main() {
     int Answer ;
     scanf( "%d %d" ,&Num1,&Num2 ) ;
     Answer = (Num1 * Num2)/ 2 ;
-printf( "Answer = %d",Answer ) ;
+printf( "Triagle Area : %d",Answer ) ;
 return 0 ;
 }//endfunction
